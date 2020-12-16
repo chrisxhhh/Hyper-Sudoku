@@ -87,9 +87,9 @@ def load_input(file_name, domain):
 
 def produce_output(board):
     """
-    read the result board and write into Output.txt
-    If Output.txt doesn't exist in current directory, create one first
-    Output.txt is emptyed first anyway
+    read the result board and write into Output3.txt
+    If Output3.txt doesn't exist in current directory, create one first
+    Output3.txt is emptyed first anyway
     """
     with open("Output.txt", mode="w") as output:
         output.truncate(0)
